@@ -1,0 +1,26 @@
+.start-screen {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-color: #7f2f0d;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-image {
+    height: 100vh;
+}
+
+.start-btn-label {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+
+    &:hover {
+        border: #7f2f0d;
+    }
+}
